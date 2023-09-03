@@ -1,0 +1,162 @@
+ 
+
+
+
+body {
+  background-color: #000;
+}
+
+nav {
+  left: -235px;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 99;
+}
+
+nav .nav-link .links {
+  overflow: hidden;
+}
+
+nav .nav-link .links ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  position: relative;
+  top: 300px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav .nav-link {
+  background-color: #000;
+  width: 235px;
+  height: 100%;
+}
+
+ 
+nav .nav-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav .nav-still {
+  width: 65px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.close-open-tab i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+nav .nav-still .icon-nav-still {
+  display: flex;
+  flex-direction: column;
+
+}
+
+ 
+.page .card .card-layer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.page .card:hover .card-layer {
+  top: 0;
+}
+
+.recDet {
+  color: #055160;
+  background-color: #cff4fc;
+  padding: 10px;
+  border-radius: 7px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.tagsDet {
+  color: #842029;
+  background-color: #f5c2c7;
+  padding: 10px;
+  border-radius: 7px; 
+  display: inline-block;
+  margin: 5px;
+}
+
+#closeDet {
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  left: 90%;
+  width: 44px;
+}
+
+#srachMeals {
+  display: flex;
+  justify-content: space-between;
+}
+
+#srachMeals input {
+  width: 48%;
+  background-color: transparent;
+  color: #fff;
+}
+
+#srachMeals input::placeholder {
+  color: #fff;
+}
+
+#srachMeals input:focus {
+  background-color: transparent;
+  color: #fff;
+}
+
+.page .card .card-layer.categ {
+  display: block;
+  text-align: center;
+  padding: 4px;
+}
+
+.page .card.area {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.page .card.ingred {
+  color: #fff;
+  text-align: center;
+  height: 200px;
+}
+
+.page .card.ingred i {
+  font-size: 4rem;
+}
+
+.page .card {
+  border: 0;
+  outline: none;
+}
+
+.page .contact input {
+  margin: 10px 0;
+}
+
+.page .contact {
+  width: 80%;
+}
+
+ 
